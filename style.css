@@ -1,0 +1,89 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: "Noto Sans KR", sans-serif;
+  }
+  
+
+  a {
+    text-decoration: none;
+  }
+  
+  #container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+      
+  }
+  a.banner {
+    display: block;
+    width: 700px;
+    height: 300px;
+    /* background: #ccc; */
+    position: relative;
+    font-family: "Noto Sans KR", sans-serif;
+    background-image: url(img/마녀.gif );
+    background-size: contain;
+    background-repeat: no-repeat;
+    animation-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
+    overflow: hidden;
+  }
+  .logo {
+    position: absolute;
+    left: 30px;
+    top: 65px;
+    animation-name: logo;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    
+
+  }
+
+  
+  @keyframes logo {
+      0%{
+         left: -160px;
+      }
+      20%{
+          left: 60px;
+      }
+  }
+  #container p{
+    position: absolute;
+    font-family: 'Nanum Myeongjo', serif;
+    color: #fff;
+    font-size: 25px;
+    letter-spacing: 0.3em;
+    left: 50px;
+    bottom: 55px;
+    animation-name: col;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    
+  }
+  
+  @keyframes col {
+    0%{
+      bottom: -60px;
+    }
+    20%{
+      bottom: 55px;
+    }
+  }
+  .btn {
+    position: absolute;
+    right: 120px;
+    top: 230px;
+    width: 85px;
+    height: 30px;
+    background: #000;
+    color: #fff;
+    font-size: 16px;
+  }
