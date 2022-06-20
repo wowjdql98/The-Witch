@@ -38,6 +38,7 @@
     left: 30px;
     top: 65px;
     animation-name: logo;
+    animation-delay: 2s;
     animation-duration: 10s;
     animation-iteration-count: infinite;
     animation-direction: alternate;
