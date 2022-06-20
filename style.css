@@ -33,7 +33,7 @@ a.banner {
 }
 .logo {
   position: absolute;
-  left: 0px;
+  left: 30px;
   top: 30px;
   animation-name: logo;
   animation-delay: 2s;
