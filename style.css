@@ -8,17 +8,15 @@ body {
   font-family: "Noto Sans KR", sans-serif;
 }
 
-
 a {
   text-decoration: none;
 }
 
-#container{
+#container {
   display: flex;
   justify-content: center;
   align-items: center;
   min-height: 100vh;
-    
 }
 a.banner {
   display: block;
@@ -27,7 +25,7 @@ a.banner {
   /* background: #ccc; */
   position: relative;
   font-family: "Noto Sans KR", sans-serif;
-  background-image: url(.//images/Honeycam\ 2022-06-17\ 08-40-35.gif );
+  background-image: url(img/마녀.gif);
   background-size: contain;
   background-repeat: no-repeat;
   animation-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
@@ -35,32 +33,29 @@ a.banner {
 }
 .logo {
   position: absolute;
-  left: 40px;
+  left: 0px;
   top: 30px;
   animation-name: logo;
   animation-delay: 2s;
   animation-duration: 10s;
   animation-iteration-count: infinite;
   animation-direction: alternate;
-  
-
 }
-
 
 @keyframes logo {
-    0%{
-       left: -160px;
-    }
-    20%{
-        left: 100px;
-    }
-    100%{
-      left: 30px;
-    }
+  0% {
+    left: -160px;
+  }
+  20% {
+    left: 100px;
+  }
+  100% {
+    left: 30px;
+  }
 }
-#container p{
+#container p {
   position: absolute;
-  font-family: 'Nanum Myeongjo', serif;
+  font-family: "Nanum Myeongjo", serif;
   color: #fff;
   font-size: 25px;
   letter-spacing: 0.3em;
@@ -71,14 +66,13 @@ a.banner {
   animation-duration: 10s;
   animation-iteration-count: infinite;
   animation-direction: alternate;
-  
 }
 
 @keyframes col {
-  0%{
+  0% {
     left: -160px;
   }
-  20%{
+  20% {
     left: 100px;
   }
 }
