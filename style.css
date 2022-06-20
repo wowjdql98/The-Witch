@@ -25,7 +25,7 @@ a.banner {
   /* background: #ccc; */
   position: relative;
   font-family: "Noto Sans KR", sans-serif;
-  background-image: url(/img/마녀.gif);
+  background-image: url(img/마녀.gif);
   background-size: contain;
   background-repeat: no-repeat;
   animation-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
